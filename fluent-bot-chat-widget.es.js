@@ -12615,12 +12615,12 @@ function Eh(e, t) {
     $$slots: { default: !0 }
   }));
 }
-var yh = /* @__PURE__ */ ke('<span class="svelte-pm0nok">U</span>'), kh = /* @__PURE__ */ ke('<div class="avatar svelte-pm0nok"><!></div>'), vh = /* @__PURE__ */ ke('<div class="message-text svelte-pm0nok"> </div>'), wh = /* @__PURE__ */ ke('<div class="markdown-content svelte-pm0nok"><!></div>'), Ah = (e, t, u) => t(e, U(u).website_url), Ch = /* @__PURE__ */ ke('<a target="_blank" rel="noopener noreferrer" class="source-link svelte-pm0nok"><!> </a>'), Sh = /* @__PURE__ */ ke('<div class="context-links svelte-pm0nok"><div class="context-label svelte-pm0nok">Sources:</div> <!></div>'), Dh = /* @__PURE__ */ ke('<div><div><!> <div class="bubble-container svelte-pm0nok"><div><!></div> <!> <div> </div></div></div></div>');
+var yh = /* @__PURE__ */ ke('<span class="svelte-n69aip">U</span>'), kh = /* @__PURE__ */ ke('<div class="avatar svelte-n69aip"><!></div>'), vh = /* @__PURE__ */ ke('<div class="message-text svelte-n69aip"> </div>'), wh = /* @__PURE__ */ ke('<div class="markdown-content svelte-n69aip"><!></div>'), Ah = (e, t, u) => t(e, U(u).website_url), Ch = /* @__PURE__ */ ke('<a target="_blank" rel="noopener noreferrer" class="source-link svelte-n69aip"><!> </a>'), Sh = /* @__PURE__ */ ke('<div class="context-links svelte-n69aip"><div class="context-label svelte-n69aip">Sources:</div> <!></div>'), Dh = /* @__PURE__ */ ke('<div><div><!> <div class="bubble-container svelte-n69aip"><div><!></div> <!> <div> </div></div></div></div>');
 const Th = {
-  hash: "svelte-pm0nok",
-  code: `.message-container.svelte-pm0nok {display:flex;margin-bottom:0.75rem;padding:0 0.5rem;}.user-message.svelte-pm0nok {justify-content:flex-end;}.bot-message.svelte-pm0nok {justify-content:flex-start;}.message-content.svelte-pm0nok {display:flex;align-items:flex-start;gap:0.5rem;max-width:85%;}.user-content.svelte-pm0nok {flex-direction:row-reverse;}.bot-content.svelte-pm0nok {flex-direction:row;}.avatar.svelte-pm0nok {width:2.5rem;height:2.5rem;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:600;flex-shrink:0;background-color:var(--primary-color);}.bubble-container.svelte-pm0nok {max-width:100%;}.message-bubble.svelte-pm0nok {padding:0.625rem 0.875rem;border-radius:1.25rem;box-shadow:0 2px 4px rgba(0, 0, 0, 0.05);position:relative;line-height:1.5;display:flex;flex-direction:column;background-color:var(--message-color);color:var(--text-color);}.user-bubble.svelte-pm0nok {border-top-right-radius:0.25rem;}.bot-bubble.svelte-pm0nok {border-top-left-radius:0.25rem;border:1px solid #e5e7eb;}.message-text.svelte-pm0nok {white-space:pre-wrap;word-break:break-word;font-size:0.95rem;margin:0;padding:0;}
+  hash: "svelte-n69aip",
+  code: `.message-container.svelte-n69aip {display:flex;margin-bottom:0.75rem;padding:0 0.5rem;}.user-message.svelte-n69aip {justify-content:flex-end;}.bot-message.svelte-n69aip {justify-content:flex-start;}.message-content.svelte-n69aip {display:flex;align-items:flex-start;gap:0.5rem;max-width:85%;}.user-content.svelte-n69aip {flex-direction:row-reverse;}.bot-content.svelte-n69aip {flex-direction:row;}.avatar.svelte-n69aip {width:2.5rem;height:2.5rem;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:600;flex-shrink:0;background-color:var(--primary-color);}.bubble-container.svelte-n69aip {max-width:100%;}.message-bubble.svelte-n69aip {padding:0.625rem 0.875rem;border-radius:1.25rem;box-shadow:0 2px 4px rgba(0, 0, 0, 0.05);position:relative;line-height:1.5;display:flex;flex-direction:column;background-color:var(--message-color);color:var(--text-color);}.user-bubble.svelte-n69aip {border-top-right-radius:0.25rem;}.bot-bubble.svelte-n69aip {border-top-left-radius:0.25rem;border:1px solid #e5e7eb;}.message-text.svelte-n69aip {white-space:pre-wrap;word-break:break-word;font-size:0.95rem;margin:0;padding:0;}
 
-  @keyframes svelte-pm0nok-bounce {
+  @keyframes svelte-n69aip-bounce {
     0%,
     80%,
     100% {
@@ -12631,7 +12631,7 @@ const Th = {
       transform: scale(1);
       opacity: 1;
     }
-  }.context-links.svelte-pm0nok {margin-top:0.25rem;padding-top:0.25rem;border-top:1px solid rgba(0, 0, 0, 0.05);}.context-label.svelte-pm0nok {font-size:0.7rem;color:#6b7280;margin-bottom:0.125rem;font-weight:500;}.source-link.svelte-pm0nok {display:flex;align-items:center;gap:0.25rem;font-size:0.75rem;color:#2563eb;text-decoration:none;padding:0.125rem 0;transition:color 0.2s;}.source-link.svelte-pm0nok:hover {color:#1d4ed8;}.timestamp.svelte-pm0nok {font-size:0.75rem;color:#6b7280; /* text-gray-500 */margin-top:0.25rem;}.user-timestamp.svelte-pm0nok {text-align:right;}.bot-timestamp.svelte-pm0nok {text-align:left;}
+  }.context-links.svelte-n69aip {margin-top:0.25rem;padding-top:0.25rem;border-top:1px solid rgba(0, 0, 0, 0.05);}.context-label.svelte-n69aip {font-size:0.7rem;color:#6b7280;margin-bottom:0.125rem;font-weight:500;}.source-link.svelte-n69aip {display:flex;align-items:center;gap:0.25rem;font-size:0.75rem;color:#2563eb;text-decoration:none;padding:0.125rem 0;transition:color 0.2s;}.source-link.svelte-n69aip:hover {color:#1d4ed8;}.timestamp.svelte-n69aip {font-size:0.75rem;color:#6b7280; /* text-gray-500 */margin-top:0.25rem;}.user-timestamp.svelte-n69aip {text-align:right;}.bot-timestamp.svelte-n69aip {text-align:left;}
 
   /* Global styles for markdown content */.markdown-content {font-size:0.95rem;line-height:1.5;color:inherit;margin:0;padding:0;}.markdown-content p {margin:0;padding:0;color:inherit;}.markdown-content p + p {margin-top:0.75rem;}.markdown-content pre {margin:0.75rem 0;padding:0.75rem;border-radius:0.5rem;background-color:#f8fafc !important;overflow-x:auto;border:1px solid #e5e7eb;}.markdown-content pre code {color:#1f2937; /* text-gray-800 */font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
       monospace;}.markdown-content code {font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -12742,7 +12742,7 @@ function Rh(e, t) {
   Ze(
     (_) => {
       var x, A, T, S, M, $;
-      Vt(s, 1, `message-container ${(x = t.type === "user" ? "user-message" : "bot-message") != null ? x : ""}`, "svelte-pm0nok"), Vt(a, 1, `message-content ${(A = t.type === "user" ? "user-content" : "bot-content") != null ? A : ""}`, "svelte-pm0nok"), Vt(h, 1, `message-bubble ${(T = t.type === "user" ? "user-bubble" : "bot-bubble") != null ? T : ""}`, "svelte-pm0nok"), Ct(h, "style", `--message-color: ${(S = t.type === "user" ? t.lighterColorHex : "white") != null ? S : ""}; --text-color: ${(M = t.type === "user" ? "white" : "#1f2937") != null ? M : ""}`), Vt(k, 1, `timestamp ${($ = t.type === "user" ? "user-timestamp" : "bot-timestamp") != null ? $ : ""}`, "svelte-pm0nok"), pu(y, _);
+      Vt(s, 1, `message-container ${(x = t.type === "user" ? "user-message" : "bot-message") != null ? x : ""}`, "svelte-n69aip"), Vt(a, 1, `message-content ${(A = t.type === "user" ? "user-content" : "bot-content") != null ? A : ""}`, "svelte-n69aip"), Vt(h, 1, `message-bubble ${(T = t.type === "user" ? "user-bubble" : "bot-bubble") != null ? T : ""}`, "svelte-n69aip"), Ct(h, "style", `--message-color: ${(S = t.type === "user" ? t.lighterColorHex : "white") != null ? S : ""}; --text-color: ${(M = t.type === "user" ? "white" : "#1f2937") != null ? M : ""}`), Vt(k, 1, `timestamp ${($ = t.type === "user" ? "user-timestamp" : "bot-timestamp") != null ? $ : ""}`, "svelte-n69aip"), pu(y, _);
     },
     [() => r(t.timestamp)]
   ), W(e, s), wu();
@@ -13037,7 +13037,7 @@ class Vh {
   }
   handleClickOutside(t) {
     !t.composedPath().some(
-      (r) => r === this.container || r === this.buttonContainer || r instanceof HTMLElement && (r.closest("#fluent-ai-chatbot") === this.container || r.closest("#chat-button") === this.buttonContainer)
+      (r) => r === this.container || r === this.buttonContainer || r instanceof HTMLElement && (r.closest("#fluent-bot-chat-widget") === this.container || r.closest("#chat-button") === this.buttonContainer)
     ) && this.isOpen && this.toggleWidget();
   }
   toggleWidget() {
@@ -13052,7 +13052,7 @@ class Vh {
     return t.textContent = `
             @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
             
-            #fluent-ai-chatbot-container {
+            #fluent-bot-chat-widget-container {
                 position: fixed;
                 bottom: 20px;
                 z-index: 9999;
@@ -13060,17 +13060,17 @@ class Vh {
                 flex-direction: column;
             }
 
-            #fluent-ai-chatbot-container.align-right {
+            #fluent-bot-chat-widget-container.align-right {
                 right: 20px;
                 align-items: flex-end;
             }
 
-            #fluent-ai-chatbot-container.align-left {
+            #fluent-bot-chat-widget-container.align-left {
                 left: 20px;
                 align-items: flex-start;
             }
 
-            #fluent-ai-chatbot {
+            #fluent-bot-chat-widget {
                 width: 400px;
                 height: 600px;
                 max-height: calc(100vh - 100px);
@@ -13091,11 +13091,11 @@ class Vh {
                 overflow: hidden;
             }
 
-            #fluent-ai-chatbot-container.align-right #fluent-ai-chatbot {
+            #fluent-bot-chat-widget-container.align-right #fluent-bot-chat-widget {
                 transform-origin: bottom right;
             }
 
-            #fluent-ai-chatbot-container.align-left #fluent-ai-chatbot {
+            #fluent-bot-chat-widget-container.align-left #fluent-bot-chat-widget {
                 transform-origin: bottom left;
             }
 
@@ -13107,9 +13107,9 @@ class Vh {
     return je(this, null, function* () {
       this.settings = yield this.fetchSettings(t);
       const u = document.createElement("div");
-      u.id = "fluent-ai-chatbot-container", u.classList.add(`align-${this.settings.button_alignment}`);
+      u.id = "fluent-bot-chat-widget-container", u.classList.add(`align-${this.settings.button_alignment}`);
       const n = document.createElement("div");
-      n.id = "fluent-ai-chatbot";
+      n.id = "fluent-bot-chat-widget";
       const r = document.createElement("div");
       r.id = "chat-button-container", u.appendChild(this.createStyles()), u.appendChild(n), u.appendChild(r), document.body.appendChild(u), this.container = n, this.buttonContainer = r, document.addEventListener("click", this.clickHandler, !0), go($h, {
         target: n,
@@ -13132,17 +13132,17 @@ class Vh {
   }
   destroy() {
     if (this.container) {
-      const t = this.container.closest("#fluent-ai-chatbot-container");
+      const t = this.container.closest("#fluent-bot-chat-widget-container");
       t && t.remove();
     }
     document.removeEventListener("click", this.clickHandler, !0);
   }
 }
 const gp = (e) => {
-  document.querySelector("#fluent-ai-chatbot-container") || new Vh(e);
+  document.querySelector("#fluent-bot-chat-widget-container") || new Vh(e);
 };
 export {
-  Vh as FluentAIChatbot,
+  Vh as FluentBotChatWidget,
   gp as injectWidget
 };
-//# sourceMappingURL=fluent-ai-chatbot.es.js.map
+//# sourceMappingURL=fluent-bot-chat-widget.es.js.map
