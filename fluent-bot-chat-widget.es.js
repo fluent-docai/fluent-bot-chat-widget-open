@@ -12064,7 +12064,7 @@ p0(
   }))
 );
 const ch = (e, t) => qe(void 0, null, function* () {
-  const u = localStorage.getItem("userId"), n = t.user_id, r = t.bot_id;
+  const u = localStorage.getItem("userId"), n = t.team_id, r = t.bot_id;
   if (!u || !n || !r)
     throw new Error("User ID, Fluent Bot User ID, and Bot ID are required");
   let i = "", o = "";
@@ -12094,7 +12094,7 @@ const ch = (e, t) => qe(void 0, null, function* () {
     const s = {
       message: e,
       userId: u,
-      fluentBotUserId: n,
+      teamId: n,
       botId: r,
       chatId: Lo(nt).currentChatId || void 0
     }, a = yield Ir.post("/chat", s, {
@@ -12965,7 +12965,7 @@ class jh {
       } catch (u) {
         return console.error("Error fetching widget settings:", u), {
           bot_name: "Fluent ChatBot",
-          user_id: 1,
+          user_id: "",
           id: t,
           bot_id: t,
           color_hex: "#2563eb",
