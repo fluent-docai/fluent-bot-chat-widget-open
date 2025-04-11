@@ -3732,7 +3732,7 @@ const {
   mergeConfig: lp
 } = oe, Xl = {
   // Only enable logging in development
-  apiBaseUrl: "https://fluent-ai-backend.support-ai.workers.dev/fluent-bot"
+  apiBaseUrl: "https://fluent-ai-backend.jewel-e68.workers.dev/fluent-bot"
 }, Ir = oe.create({
   baseURL: Xl.apiBaseUrl,
   timeout: 3e4,
