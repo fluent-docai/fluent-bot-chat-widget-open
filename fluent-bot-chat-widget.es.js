@@ -12952,10 +12952,10 @@ class jh {
   fetchSettings(t) {
     return qe(this, null, function* () {
       try {
-        const u = yield fetch(`http://localhost:8000/api/bots/${t}/widget-settings`);
-        if (!u.ok)
+        const n = yield fetch(`https://beta.fluentbot.ai/api/bots/${t}/widget-settings`);
+        if (!n.ok)
           throw new Error("Failed to fetch widget settings");
-        return (yield u.json()).data;
+        return (yield n.json()).data;
       } catch (u) {
         return console.error("Error fetching widget settings:", u), {
           bot_name: "Fluent ChatBot",
