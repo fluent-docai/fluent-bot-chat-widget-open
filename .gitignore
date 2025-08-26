@@ -2,3 +2,7 @@
 .venv
 requirements.txt
 server.py
+.vscode
+.windsurf
+.trae
+__pycache__
