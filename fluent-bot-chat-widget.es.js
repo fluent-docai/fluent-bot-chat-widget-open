@@ -3890,7 +3890,7 @@ const {
     "Content-Type": "application/json"
   }
 }), Ms = ie.create({
-  baseURL: "https://beta.fluentbot.ai:8100",
+  baseURL: "https://beta.fluentbot.ai/ai",
   timeout: 3e4,
   headers: {
     "Content-Type": "application/json"
