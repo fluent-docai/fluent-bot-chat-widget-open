@@ -12419,15 +12419,15 @@ function _p(e, t) {
   var c = ke(s, 2), l = Y(c), f = ke(o, 2), h = Y(f);
   h.__click = [bp];
   var p = Y(h);
-  Vs(p, { size: 20 });
+  Vs(p, { size: 16 });
   var d = ke(h, 2);
   d.__click = [hp, n];
   var m = Y(d);
   {
     var g = (A) => {
-      Tf(A, { size: 20 });
+      Tf(A, { size: 16 });
     }, k = (A) => {
-      wf(A, { size: 20 });
+      wf(A, { size: 16 });
     };
     Oe(m, (A) => {
       S(n) ? A(g) : A(k, !1);
@@ -12436,7 +12436,7 @@ function _p(e, t) {
   var y = ke(d, 2);
   y.__click = [dp, u];
   var x = Y(y);
-  Rf(x, { size: 20 });
+  Rf(x, { size: 16 });
   var _ = ke(i, 2), v = Y(_);
   ip(v, {
     get settings() {
@@ -12640,7 +12640,7 @@ class Sp {
       this.container.style.opacity = "1", this.container.style.transform = "translateY(0) scale(1)";
     }, 0)) : (this.container.style.opacity = "0", this.container.style.transform = "translateY(20px) scale(0.95)", setTimeout(() => {
       this.container.style.display = "none";
-    }, 300))), this.chatButtonInstance)
+    }, 600))), this.chatButtonInstance)
       if (typeof this.chatButtonInstance.update == "function")
         this.chatButtonInstance.update({ isOpen: this.isOpen });
       else {
@@ -12707,11 +12707,11 @@ class Sp {
                 opacity: 0;
                 transform: translateY(20px) scale(0.95);
                 transform-origin: bottom;
-                transition: opacity 0.3s ease,
-                            transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-                            width 0.35s ease,
-                            height 0.35s ease,
-                            max-height 0.35s ease;
+                transition: opacity 0.7s ease,
+                            transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1),
+                            width 0.7s ease,
+                            height 0.7s ease,
+                            max-height 0.7s ease;
                 will-change: width, height, transform, opacity;
                 font-family: inherit;
             }
@@ -12729,11 +12729,11 @@ class Sp {
                 width: 55vw;
                 height: 85vh;
                 max-height: 85vh;
-                animation: fb-maximize-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+                animation: fb-maximize-pop 1s cubic-bezier(0.34, 1.56, 0.64, 1);
             }
 
             @keyframes fb-maximize-pop {
-                0% { transform: translateY(0) scale(0.97); }
+                0% { transform: translateY(0) scale(1); }
                 60% { transform: translateY(0) scale(1.012); }
                 100% { transform: translateY(0) scale(1); }
             }
