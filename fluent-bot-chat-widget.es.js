@@ -13709,33 +13709,33 @@ const Sb = (e, t) => {
     document.dispatchEvent(n), B(t, !0);
   }
 };
-var Ob = /* @__PURE__ */ ae('<img class="logo svelte-1xv7scx" loading="lazy" decoding="async">'), Fb = () => document.dispatchEvent(new CustomEvent("close-widget")), Mb = /* @__PURE__ */ ae('<main class="svelte-1xv7scx"><header class="main-header svelte-1xv7scx"><div class="brand svelte-1xv7scx"><!> <div class="title svelte-1xv7scx"> </div></div> <div class="button-group svelte-1xv7scx"><button class="icon-button close-mobile svelte-1xv7scx" aria-label="Close chat"><!></button> <button class="icon-button svelte-1xv7scx"><!></button> <button class="icon-button reset-mobile svelte-1xv7scx" aria-label="Reset chat"><!></button></div></header> <div class="content svelte-1xv7scx"><!></div></main>');
+var Ob = /* @__PURE__ */ ae('<img class="logo svelte-nnvbbk" loading="lazy" decoding="async">'), Fb = () => document.dispatchEvent(new CustomEvent("close-widget")), Mb = /* @__PURE__ */ ae('<main class="svelte-nnvbbk"><header class="main-header svelte-nnvbbk"><div class="brand svelte-nnvbbk"><!> <div class="title svelte-nnvbbk"> </div></div> <div class="button-group svelte-nnvbbk"><button class="icon-button svelte-nnvbbk"><!></button> <button class="icon-button reset-mobile svelte-nnvbbk" aria-label="Reset chat"><!></button> <button class="icon-button close-mobile svelte-nnvbbk" aria-label="Close chat"><!></button></div></header> <div class="content svelte-nnvbbk"><!></div></main>');
 const Rb = {
-  hash: "svelte-1xv7scx",
-  code: `main.svelte-1xv7scx {height:100vh;display:flex;flex-direction:column;background-color:#f7f7f7; /* gray-50 */overflow:hidden; /* preserve container rounded-corner clipping */}header.svelte-1xv7scx {color:inherit;padding:0.5rem;display:flex;align-items:center;gap:0.5rem;flex-shrink:0;}.main-header.svelte-1xv7scx {color:inherit;padding:0.5rem;display:flex;align-items:center;gap:0.5rem;flex-shrink:0;position:relative; /* ensure tooltips appear above content */z-index:2;}.brand.svelte-1xv7scx {display:flex;align-items:center;gap:0.5rem;min-width:0; /* allow children to truncate */}
+  hash: "svelte-nnvbbk",
+  code: `main.svelte-nnvbbk {height:100vh;display:flex;flex-direction:column;background-color:#f7f7f7; /* gray-50 */overflow:hidden; /* preserve container rounded-corner clipping */}header.svelte-nnvbbk {color:inherit;padding:0.5rem;display:flex;align-items:center;gap:0.5rem;flex-shrink:0;}.main-header.svelte-nnvbbk {color:inherit;padding:0.5rem;display:flex;align-items:center;gap:0.5rem;flex-shrink:0;position:relative; /* ensure tooltips appear above content */z-index:2;}.brand.svelte-nnvbbk {display:flex;align-items:center;gap:0.5rem;min-width:0; /* allow children to truncate */}
 
   /* Constrain header logo so large images don't expand the header
      - Keep a sensible height, allow width to scale, and use object-fit
-       so logos preserve aspect ratio without distortion. */.brand.svelte-1xv7scx .logo:where(.svelte-1xv7scx) {display:block;height:2rem; /* 32px - fits header comfortably */max-height:2.5rem; /* allow slightly taller logos on high-DPI */width:auto;max-width:12rem; /* avoid extremely wide logos pushing controls off-screen */object-fit:contain;}.title.svelte-1xv7scx {font-size:1.125rem;font-weight:600;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;}.button-group.svelte-1xv7scx {margin-left:auto;display:flex;gap:0.5rem;}
+       so logos preserve aspect ratio without distortion. */.brand.svelte-nnvbbk .logo:where(.svelte-nnvbbk) {display:block;height:2rem; /* 32px - fits header comfortably */max-height:2.5rem; /* allow slightly taller logos on high-DPI */width:auto;max-width:12rem; /* avoid extremely wide logos pushing controls off-screen */object-fit:contain;}.title.svelte-nnvbbk {font-size:1.125rem;font-weight:600;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;}.button-group.svelte-nnvbbk {margin-left:auto;display:flex;gap:0.5rem;}
 
-  /* Close button only shown on small / fullscreen views */.close-mobile.svelte-1xv7scx {display:none !important; /* default hidden on large screens */}
+  /* Close button: always visible and placed to the right of Reset */.close-mobile.svelte-nnvbbk {display:inline-flex; /* show on all screen sizes */order:1; /* ensure it's placed after the reset button */}
 
-  /* Ensure regular controls are visible on large screens */.button-group.svelte-1xv7scx .icon-button:where(.svelte-1xv7scx) {display:inline-flex;}
+  /* Ensure regular controls are visible on large screens */.button-group.svelte-nnvbbk .icon-button:where(.svelte-nnvbbk) {display:inline-flex;}
 
-  @media screen and (max-width: 640px) {.close-mobile.svelte-1xv7scx {display:inline-flex !important;}
+  @media screen and (max-width: 640px) {.close-mobile.svelte-nnvbbk {display:inline-flex !important;}
 
-    /* hide regular maximize/minimize controls on mobile to reduce clutter (keep reset visible) */.button-group.svelte-1xv7scx .icon-button:where(.svelte-1xv7scx):not(.close-mobile):not(.reset-mobile) {display:none !important;}
+    /* hide regular maximize/minimize controls on mobile to reduce clutter (keep reset visible) */.button-group.svelte-nnvbbk .icon-button:where(.svelte-nnvbbk):not(.close-mobile):not(.reset-mobile) {display:none !important;}
 
-    /* Show reset on mobile and put it left of the close button */.reset-mobile.svelte-1xv7scx {display:inline-flex !important;order:0;margin-right:0.5rem;}.close-mobile.svelte-1xv7scx {order:1;}
-  }.icon-button.svelte-1xv7scx {background:transparent;border:none;color:inherit; /* follow header on_primary_color */cursor:pointer;position:relative; /* enable tooltip positioning */display:inline-flex;align-items:center;justify-content:center;}
+    /* Show reset on mobile and keep it left of the close button */.reset-mobile.svelte-nnvbbk {display:inline-flex !important;order:0;margin-right:0; /* spacing handled on the close button */}.close-mobile.svelte-nnvbbk {order:1;}
+  }.icon-button.svelte-nnvbbk {background:transparent;border:none;color:inherit; /* follow header on_primary_color */cursor:pointer;position:relative; /* enable tooltip positioning */display:inline-flex;align-items:center;justify-content:center;}
 
-  /* Custom tooltip using aria-label as content */.icon-button.svelte-1xv7scx::after {content:attr(aria-label);position:absolute;top:calc(
+  /* Custom tooltip using aria-label as content */.icon-button.svelte-nnvbbk::after {content:attr(aria-label);position:absolute;top:calc(
       100% + 8px
     ); /* place tooltip below to avoid clipping by container */left:50%;transform:translateX(-50%);background-color:rgba(17, 24, 39, 0.95); /* near-black */color:#fff;padding:6px 8px; /* padding as requested */border-radius:6px; /* rounded corners as requested */font-size:12px;line-height:1;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity 150ms ease,
-      transform 150ms ease;z-index:1000;}.icon-button.svelte-1xv7scx:hover::after,
-  .icon-button.svelte-1xv7scx:focus-visible::after {opacity:1;transform:translateX(-50%) translateY(2px); /* slight downward nudge */}
+      transform 150ms ease;z-index:1000;}.icon-button.svelte-nnvbbk:hover::after,
+  .icon-button.svelte-nnvbbk:focus-visible::after {opacity:1;transform:translateX(-50%) translateY(2px); /* slight downward nudge */}
 
-  /* Keep the right-most tooltip inside the container by aligning it to the right edge of the button */.button-group.svelte-1xv7scx .icon-button:where(.svelte-1xv7scx):last-child::after {left:auto;right:0;transform:translateY(2px);}.content.svelte-1xv7scx {flex:1;overflow:hidden; /* keep scrolling content masked while tooltips can overflow from header */}`
+  /* Keep the right-most tooltip inside the container by aligning it to the right edge of the button */.button-group.svelte-nnvbbk .icon-button:where(.svelte-nnvbbk):last-child::after {left:auto;right:0;transform:translateY(2px);}.content.svelte-nnvbbk {flex:1;overflow:hidden; /* keep scrolling content masked while tooltips can overflow from header */}`
 };
 function Nb(e, t) {
   An(t, !0), Gu(e, Rb);
@@ -13757,33 +13757,33 @@ function Nb(e, t) {
     });
   }
   var c = de(s, 2), l = G(c), f = de(o, 2), h = G(f);
-  h.__click = [Fb];
+  h.__click = [Tb, u];
   var p = G(h);
-  sa(p, { size: 16 });
-  var d = de(h, 2);
-  d.__click = [Tb, u];
-  var m = G(d);
   {
-    var g = (y) => {
+    var d = (y) => {
       Ff(y, { size: 16 });
-    }, C = (y) => {
+    }, m = (y) => {
       Af(y, { size: 16 });
     };
-    Ee(m, (y) => {
-      D(u) ? y(g) : y(C, !1);
+    Ee(p, (y) => {
+      D(u) ? y(d) : y(m, !1);
     });
   }
-  var _ = de(d, 2);
-  _.__click = [Sb, n];
+  var g = de(h, 2);
+  g.__click = [Sb, n];
+  var C = G(g);
+  If(C, { size: 16 });
+  var _ = de(g, 2);
+  _.__click = [Fb];
   var k = G(_);
-  If(k, { size: 16 });
+  sa(k, { size: 16 });
   var v = de(i, 2), w = G(v);
   Ab(w, {
     get settings() {
       return t.settings;
     }
   }), ve(() => {
-    st(i, `background-color: ${t.settings.primary_color ?? ""}; color: ${t.settings.on_primary_color ?? ""};`), Be(c, "title", t.settings.title_text), gn(l, t.settings.title_text), Be(d, "aria-label", D(u) ? "Collapse chat" : "Expand chat");
+    st(i, `background-color: ${t.settings.primary_color ?? ""}; color: ${t.settings.on_primary_color ?? ""};`), Be(c, "title", t.settings.title_text), gn(l, t.settings.title_text), Be(h, "aria-label", D(u) ? "Collapse chat" : "Expand chat");
   }), q(e, r), Dn();
 }
 iu(["click"]);
