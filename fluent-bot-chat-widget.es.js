@@ -3826,7 +3826,8 @@ const {
       stream: !0,
       source: "widget",
       conversation_id: Oa(We).conversation_id,
-      cache: !0
+      cache: !0,
+      page_url: window.location.href
     }, o = await fetch("https://beta.fluentbot.ai/ai/chat/completion", {
       method: "POST",
       headers: {
